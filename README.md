@@ -7,7 +7,7 @@ You have to load mymap module from this file into your python program
 and use it as shown  in the following examples.
 
 It works both for Python 2.7 and Python 3.x
---------------------------------------------------------------------------------------
+--------------------------------------------
 A short description of variables:
 
 maps : the main 2D object to be displayed
@@ -31,7 +31,8 @@ lev  : level for masks
 mask : mask (a 2D map with the same size)
 
 chk: flag. put it to zero to skip contours, or one to activate contours.
---------------------------------------------------------------------------------------
+------------------------------------------------------------------------
+
 examples:
 
 import matplotlib, numpy, rplot
