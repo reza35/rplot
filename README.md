@@ -11,19 +11,25 @@ It works both for Python 2.7 and Python 3.x
 A short description of variables:
 
 maps : the main 2D object to be displayed
+
 lo,lu: lower and upper limits to clip the map. if zero, full range will be used. 
+
 extent: size of the map (two numbers for min/max in each axis), e.g. (0, 1., 0, 2.)
 
 xt, yt, tit : position (in plot coordinate) and text of the title
+
 xtt, ytt, mtn: a second annotation text
 
 col: any python color table (gray, jet, ...)
 
-
 fname: filename with extension, e.g. map.eps, file.jpg, ...
+
 psave: path to save the figure
+
 lev  : level for masks
+
 mask : mask (a 2D map with the same size)
+
 chk: flag. put it to zero to skip contours, or one to activate contours.
 --------------------------------------------------------------------------------------
 examples:
